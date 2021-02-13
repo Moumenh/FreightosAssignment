@@ -156,7 +156,7 @@ export class Vendor {
         if (this.items[itemRow - 1][itemCol - 1].quantity === 0) {
             return 'No item atm sorry'
         } else {
-            this.total = + price
+            this.total += price
             return 'Success my friend take ur item'
         }
 
