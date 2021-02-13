@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.items{
+  display: flex;
+  width: 900px;
+  margin: auto;
+}
