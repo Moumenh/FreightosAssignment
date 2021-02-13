@@ -76,7 +76,22 @@ export class Vendor {
         return this.items[itemRow - 1][itemCol - 1]
     }
 
+    moneyValidate = (money) => {
+        let acceptedMoney = [0.1, 0.2, 0.5, 1, 20, 50]
+        let valid = false
+        acceptedMoney.forEach((item, i) => {
+            if (item === money) {
+                valid = true
+            }
+        })
+
+        return valid
+    }
+
     buy = (itemRow, itemCol, money) => {
+        if (!this.moneyValidate(money)) {
+            return 'Only good money broo (0.1c, 0.2c, 0.5c, 1$, 20$, 50$)'
+        }
         let userChange = []
 
         if (this.items[itemRow - 1][itemCol - 1].price > money) {

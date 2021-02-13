@@ -16,6 +16,7 @@ const App = () => {
   const [count, setCount] = useState(1)
   const [money, setMoney] = useState(0)
   const [chosedItem, setChosedItem] = useState(null)
+  const [totalProfit, setTotalProfit] = useState(null)
   // console.log(userChange)
   console.log(row)
   console.log(col)
@@ -40,6 +41,7 @@ const App = () => {
     setRow(null)
     setCol(null)
     setChosedItem(null)
+    setUserChange([])
     setCount(1)
   }
 
@@ -63,7 +65,7 @@ const App = () => {
     // console.log(change)
     setUserChange(change)
     setMoney(0)
-
+    setTotalProfit(vending.showProfit())
   }
 
   return (
@@ -90,17 +92,31 @@ const App = () => {
       }
 
       <Keyboard setRow={setRow} setCol={setCol} setCount={setCount} count={count} setChosedItem={setChosedItem} />
-      <button onClick={resetItem}>
-        choose another Item
+      <div style={{ marginBottom: '10px' }}>
+        <button onClick={resetItem}>
+          choose another Item
       </button>
+      </div>
+
       <input value={money} onChange={(e) => setMoney(Number(e.target.value))} />
       <button onClick={() => buy(row, col, money)} style={{ marginBottom: '20px' }}>
         buy
       </button>
+      <div>
 
+        {
+          Array.isArray(userChange) && userChange.length > 1 && <h3>this is your changes mate</h3>
+        }
+        {
+          Array.isArray(userChange) && userChange && userChange.map((change, i) => <h3 key={i} >{change}</h3>)
+        }
+      </div>
       {
-        Array.isArray(userChange) && userChange && userChange.map((change, i) => <h3 key={i} >{change}</h3>)
+        totalProfit && <div className='profit'>
+          <h3>Profit until now : ${totalProfit}</h3>
+        </div>
       }
+
 
     </div>
   );

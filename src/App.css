@@ -7,3 +7,9 @@
   width: 600px;
   margin: auto;
 }
+
+.profit{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}

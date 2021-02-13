@@ -37,3 +37,14 @@
     top: 90px;
     
 }
+
+.keyboard__button{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.keyboard__button:focus{
+    outline: none;
+}
