@@ -14,7 +14,7 @@ const App = () => {
   const [row, setRow] = useState(null)
   const [col, setCol] = useState(null)
   const [count, setCount] = useState(1)
-  const [money, setMoney] = useState(0)
+  const [money, setMoney] = useState('')
   const [chosedItem, setChosedItem] = useState(null)
   const [totalProfit, setTotalProfit] = useState(null)
   // console.log(userChange)
@@ -61,12 +61,14 @@ const App = () => {
     if (money <= 0) {
       return alert('No money bro no work')
     }
-    let change = vending.buy(row, col, money)
+    let moneyTo = Number(money)
+    let change = vending.buy(row, col, moneyTo)
     // console.log(change)
     setUserChange(change)
     setMoney(0)
     setTotalProfit(vending.showProfit())
   }
+
 
   return (
     <div className="App">
@@ -98,7 +100,7 @@ const App = () => {
       </button>
       </div>
 
-      <input value={money} onChange={(e) => setMoney(Number(e.target.value))} />
+      <input value={money} onChange={(e) => setMoney(e.target.value)} />
       <button onClick={() => buy(row, col, money)} style={{ marginBottom: '20px' }}>
         buy
       </button>

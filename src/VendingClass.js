@@ -143,6 +143,12 @@ export class Vendor {
             this.total += this.items[itemRow - 1][itemCol - 1].price
         }
         console.log(userChange)
+
+        for (let i = 0; i < this.changes.length; i++) {
+            if (money === this.changes[i].equal) {
+                this.changes[i].quantity += 1
+            }
+        }
         return userChange
     }
 
