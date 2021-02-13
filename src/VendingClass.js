@@ -58,8 +58,8 @@ function total(changes) {
     return total
 }
 
-const initialMoney = total(changes)
-console.log(initialMoney)
+export const initialMoney = total(changes)
+// console.log(initialMoney)
 
 
 export class Vendor {
