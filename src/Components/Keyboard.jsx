@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Keyboard = ({ setRow, setCol, setCount, count }) => {
+const Keyboard = ({ setRow, setCol, setCount, count, setChosedItem }) => {
     const numbers = [1, 2, 3, 4, 5]
 
     const rowCol = (e) => {
@@ -17,6 +17,7 @@ const Keyboard = ({ setRow, setCol, setCount, count }) => {
             setCount(1)
             setRow(null)
             setCol(null)
+            setChosedItem(null)
         }
     }
 

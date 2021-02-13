@@ -10,43 +10,43 @@ export const changes = [
 
 export const items = [
     [
-        { item: 'cola', price: 2, quantity: 5, img: 'https://media.officedepot.com/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_1665,q_auto,w_1250/c_pad,h_1665,w_1250/v1/products/208206/208206_p?pgw=1&pgwact=1' },
-        { item: 'Pepsi', price: 2, quantity: 5, img: 'https://www.luluhypermarket.com/medias/424982-01.jpg-515Wx515H?context=bWFzdGVyfGltYWdlc3wxNzk0MDh8aW1hZ2UvanBlZ3xoYjcvaDZhLzk3NzU1NTIzMzE4MDYvNDI0OTgyLTAxLmpwZ181MTVXeDUxNUh8YzE5MDY0NTE5ODE3NWIyMjVmZjRmNGUyNTRjNTc5NTAzMDZjMTdmZjQwNjkxMjc5NzE0MjdiMDg3MTQwNjViYw' },
-        { item: 'Sprite', price: 3, quantity: 5, img: 'https://images-na.ssl-images-amazon.com/images/I/51AniJpRujL._SX425_.jpg' },
-        { item: 'xl', price: 4, quantity: 5, img: 'https://lh3.googleusercontent.com/proxy/69dU_FX-Z37PWmUEKfVzrZts9RYARZ3fcRsVyOsrdBJgVYTY1YZ4oRNmNWft3yqkZQwSD5cjL0y8FDtBb8dxVRj2XOXx3EgYKW-UuRTABgD3ck_W0vSm4dvDOil6PTWS4jAb8lkMo5eGyQ3cwX5_RTQSWyuUOaSrFapWdBUhqDbeo9NRd88o40CM2A' },
-        { item: 'choco', price: 3, quantity: 5, img: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3a2f1be3-95a5-438c-a0a1-684d8af8c647.jpg' }
+        { location: '11', item: 'cola', price: 2, quantity: 5, img: 'https://media.officedepot.com/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_1665,q_auto,w_1250/c_pad,h_1665,w_1250/v1/products/208206/208206_p?pgw=1&pgwact=1' },
+        { location: '12', item: 'Pepsi', price: 2, quantity: 5, img: 'https://www.luluhypermarket.com/medias/424982-01.jpg-515Wx515H?context=bWFzdGVyfGltYWdlc3wxNzk0MDh8aW1hZ2UvanBlZ3xoYjcvaDZhLzk3NzU1NTIzMzE4MDYvNDI0OTgyLTAxLmpwZ181MTVXeDUxNUh8YzE5MDY0NTE5ODE3NWIyMjVmZjRmNGUyNTRjNTc5NTAzMDZjMTdmZjQwNjkxMjc5NzE0MjdiMDg3MTQwNjViYw' },
+        { location: '13', item: 'Sprite', price: 3, quantity: 5, img: 'https://images-na.ssl-images-amazon.com/images/I/51AniJpRujL._SX425_.jpg' },
+        { location: '14', item: 'xl', price: 4, quantity: 5, img: 'https://lh3.googleusercontent.com/proxy/69dU_FX-Z37PWmUEKfVzrZts9RYARZ3fcRsVyOsrdBJgVYTY1YZ4oRNmNWft3yqkZQwSD5cjL0y8FDtBb8dxVRj2XOXx3EgYKW-UuRTABgD3ck_W0vSm4dvDOil6PTWS4jAb8lkMo5eGyQ3cwX5_RTQSWyuUOaSrFapWdBUhqDbeo9NRd88o40CM2A' },
+        { location: '15', item: 'choco', price: 3, quantity: 5, img: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3a2f1be3-95a5-438c-a0a1-684d8af8c647.jpg' }
     ],
 
     [
-        { item: 'lays', price: 2, quantity: 5, img: '' },
-        { item: 'Pepsi', price: 2, quantity: 5, img: '' },
-        { item: 'Sprite', price: 3, quantity: 5, img: '' },
-        { item: 'xl', price: 4, quantity: 5, img: '' },
-        { item: 'choco', price: 3, quantity: 5, img: '' }
+        { location: '21', item: 'lays', price: 1, quantity: 5, img: 'https://target.scene7.com/is/image/Target/GUEST_bbe70005-2e20-4da5-baa1-1a8fdf544aa1?wid=488&hei=488&fmt=pjpeg' },
+        { location: '22', item: 'Cheetos', price: 3, quantity: 5, img: 'https://www.myamericanmarket.com/4632-large_default/cheetos-crunchy-flamin-hot.jpg' },
+        { location: '23', item: 'lays', price: 1, quantity: 5, img: 'https://www.hollandshop24.com/media/image/product/67/lg/lays-chips-naturel-xxxl-300g.jpg' },
+        { location: '24', item: 'lays', price: 1, quantity: 5, img: 'https://sc02.alicdn.com/kf/U4a090acfc53e4e04b14b3fe82a19cb33p.jpg_640x640.jpg' },
+        { location: '25', item: 'lays', price: 1, quantity: 5, img: 'https://images-na.ssl-images-amazon.com/images/I/71uQ3b9609L._SL1500_.jpg' }
     ],
 
     [
-        { item: 'lays', price: 2, quantity: 5, img: '' },
-        { item: 'Pepsi', price: 2, quantity: 5, img: '' },
-        { item: 'Sprite', price: 3, quantity: 5, img: '' },
-        { item: 'xl', price: 4, quantity: 5, img: '' },
-        { item: 'choco', price: 3, quantity: 5, img: '' }
+        { location: '31', item: 'galaxy', price: 3, quantity: 5, img: 'https://images-na.ssl-images-amazon.com/images/I/51hREDB5-NL._SL1000_.jpg' },
+        { location: '32', item: 'snikers ', price: 2, quantity: 5, img: 'https://www.torocorredor.com/wp-content/uploads/2014/11/Canguro-Snickers1.png' },
+        { location: '33', item: 'bubbly', price: 4, quantity: 5, img: 'https://images-na.ssl-images-amazon.com/images/I/41100DSTICL._SX425_.jpg' },
+        { location: '34', item: 'mars', price: 4, quantity: 5, img: 'https://images-na.ssl-images-amazon.com/images/I/71-Fk-zdrkL._SX522_.jpg' },
+        { location: '35', item: 'twix', price: 3, quantity: 5, img: 'https://p.kindpng.com/picc/s/769-7696022_twix-freetoedit-twix-spekulatius-hd-png-download.png' }
     ],
 
     [
-        { item: 'lays', price: 2, quantity: 5, img: '' },
-        { item: 'Pepsi', price: 2, quantity: 5, img: '' },
-        { item: 'Sprite', price: 3, quantity: 5, img: '' },
-        { item: 'xl', price: 4, quantity: 5, img: '' },
-        { item: 'choco', price: 3, quantity: 5, img: '' }
+        { location: '41', item: 'lays', price: 1, quantity: 5, img: 'https://target.scene7.com/is/image/Target/GUEST_bbe70005-2e20-4da5-baa1-1a8fdf544aa1?wid=488&hei=488&fmt=pjpeg' },
+        { location: '42', item: 'Cheetos', price: 3, quantity: 5, img: 'https://www.myamericanmarket.com/4632-large_default/cheetos-crunchy-flamin-hot.jpg' },
+        { location: '43', item: 'lays', price: 1, quantity: 5, img: 'https://www.hollandshop24.com/media/image/product/67/lg/lays-chips-naturel-xxxl-300g.jpg' },
+        { location: '44', item: 'lays', price: 1, quantity: 5, img: 'https://sc02.alicdn.com/kf/U4a090acfc53e4e04b14b3fe82a19cb33p.jpg_640x640.jpg' },
+        { location: '45', item: 'lays', price: 1, quantity: 5, img: 'https://images-na.ssl-images-amazon.com/images/I/71uQ3b9609L._SL1500_.jpg' }
     ],
 
     [
-        { item: 'lays', price: 2, quantity: 5 },
-        { item: 'Pepsi', price: 2, quantity: 5 },
-        { item: 'Sprite', price: 3, quantity: 5 },
-        { item: 'xl', price: 4, quantity: 5 },
-        { item: 'choco', price: 3, quantity: 5 }
+        { location: '51', item: 'cola', price: 2, quantity: 5, img: 'https://media.officedepot.com/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_1665,q_auto,w_1250/c_pad,h_1665,w_1250/v1/products/208206/208206_p?pgw=1&pgwact=1' },
+        { location: '52', item: 'Pepsi', price: 2, quantity: 5, img: 'https://www.luluhypermarket.com/medias/424982-01.jpg-515Wx515H?context=bWFzdGVyfGltYWdlc3wxNzk0MDh8aW1hZ2UvanBlZ3xoYjcvaDZhLzk3NzU1NTIzMzE4MDYvNDI0OTgyLTAxLmpwZ181MTVXeDUxNUh8YzE5MDY0NTE5ODE3NWIyMjVmZjRmNGUyNTRjNTc5NTAzMDZjMTdmZjQwNjkxMjc5NzE0MjdiMDg3MTQwNjViYw' },
+        { location: '53', item: 'Sprite', price: 3, quantity: 5, img: 'https://images-na.ssl-images-amazon.com/images/I/51AniJpRujL._SX425_.jpg' },
+        { location: '54', item: 'xl', price: 4, quantity: 5, img: 'https://lh3.googleusercontent.com/proxy/69dU_FX-Z37PWmUEKfVzrZts9RYARZ3fcRsVyOsrdBJgVYTY1YZ4oRNmNWft3yqkZQwSD5cjL0y8FDtBb8dxVRj2XOXx3EgYKW-UuRTABgD3ck_W0vSm4dvDOil6PTWS4jAb8lkMo5eGyQ3cwX5_RTQSWyuUOaSrFapWdBUhqDbeo9NRd88o40CM2A' },
+        { location: '55', item: 'choco', price: 3, quantity: 5, img: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3a2f1be3-95a5-438c-a0a1-684d8af8c647.jpg' }
     ]
 ]
 
@@ -70,6 +70,10 @@ export class Vendor {
         this.total = total
         this.card = 0
 
+    }
+
+    getItem = (itemRow, itemCol) => {
+        return this.items[itemRow - 1][itemCol - 1]
     }
 
     buy = (itemRow, itemCol, money) => {
@@ -106,7 +110,7 @@ export class Vendor {
                 // console.log(obj)
             }
             // console.log(machinChange, mahineCompare, userChange)
-            if (mahineCompare - machinChange > .1) {
+            if (Math.floor(mahineCompare - machinChange) > .1) {
 
                 for (let i = 0; i < this.changes.length; i++) {
                     if (obj[this.changes[i].type]) {
@@ -120,6 +124,7 @@ export class Vendor {
             if (mahineCompare - machinChange > 0) {
                 userChange.push(this.changes[0].type)
             }
+            this.items[itemRow - 1][itemCol - 1].quantity -= 1
             this.total += this.items[itemRow - 1][itemCol - 1].price
         }
         console.log(userChange)

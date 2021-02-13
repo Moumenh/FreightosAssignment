@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
-    height: 150px;
+    width: 60px;
+    height: 90px;
     margin: auto;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .item__img{
@@ -29,4 +30,10 @@
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+.item__location{
+    position: absolute;
+    top: 90px;
+    
 }
